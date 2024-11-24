@@ -1,0 +1,155 @@
+/* src/index.css */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f7ff;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Asegura un comportamiento adecuado en pantallas pequeñas */
+  box-sizing: border-box; /* Asegura que el padding no desborde */
+}
+
+.app-container {
+  text-align: center;
+  width: 90%; /* Ajusta el ancho para dispositivos pequeños */
+  max-width: 400px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  margin: 20px; /* Añade margen en dispositivos más pequeños */
+}
+
+h1 {
+  color: #333;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+input {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 12px 20px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 10px;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.google-btn {
+  background-color: #f4424e;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 12px 20px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 15px;
+  width: 100%;
+}
+
+.google-btn:hover {
+  background-color: #357ae8;
+}
+
+.link {
+  color: #007bff;
+  cursor: pointer;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.form-container {
+  max-width: 380px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+p {
+  margin-top: 15px;
+  font-size: 0.875rem; /* Fuente más pequeña para dispositivos pequeños */
+  color: #666;
+}
+
+p span {
+  font-weight: bold;
+}
+
+.dashboard-container {
+  padding: 20px;
+}
+
+.dashboard-container img {
+  border-radius: 50%;
+  width: 80px; /* Tamaño reducido para pantallas pequeñas */
+  height: 80px;
+  object-fit: cover;
+  margin-top: 15px;
+}
+
+.dashboard-container button {
+  margin-top: 20px;
+  background-color: #dc3545;
+}
+
+.dashboard-container button:hover {
+  background-color: #c82333;
+}
+
+/* Media Queries para pantallas más pequeñas */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  button, .google-btn {
+    font-size: 0.9rem;
+    padding: 10px 15px;
+  }
+
+  p {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.2rem;
+  }
+
+  input, button, .google-btn {
+    font-size: 0.8rem;
+    padding: 8px 10px;
+  }
+
+  .app-container {
+    padding: 15px;
+  }
+
+  p {
+    font-size: 0.75rem;
+  }
+}
