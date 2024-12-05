@@ -27,10 +27,10 @@ El **Asilo de Ancianos Esperanza de Santa Ana** actualmente lleva los registros 
 
 **Estado**: ¡Etapa finalizada! ✅
 
-
 ---
 
-## Etapa 2: Pantalla de Inicio y Navegación  ✅
+## Etapa 2: Pantalla de Inicio y Navegación ✅
+
 Objetivo: Crear la pantalla principal y gestionar la navegación entre diferentes secciones de la aplicación.
 
 Crear una pantalla principal (HomeScreen) que incluya opciones para acceder a las secciones de Pacientes, Doctores y Citas.
@@ -42,7 +42,6 @@ Asegurarse de que cada pantalla tenga su propio título y se muestre correctamen
 
 Estado: ¡Etapa finalizada! ✅
 
-
 ---
 
 ## Etapa Final ✅
@@ -50,26 +49,3 @@ Estado: ¡Etapa finalizada! ✅
 Estado: ¡Etapa finalizada! ✅
 
 ---
-
-# Login
-<img src="https://github.com/AlexanderSiguenza/AsiloApp/blob/main/img/tarea1.jpg" alt="Descripción de la imagen" width="300" height="600">
-
-
-# Registro
-<img src="https://github.com/AlexanderSiguenza/AsiloApp/blob/main/img/tarea2.jpg" alt="Descripción de la imagen" width="300" height="600">
-
-
-# Menu
-<img src="https://github.com/AlexanderSiguenza/AsiloApp/blob/main/img/tarea6.jpg" alt="Descripción de la imagen" width="300" height="600">
-
-
-# Pacientes
-<img src="https://github.com/AlexanderSiguenza/AsiloApp/blob/main/img/tarea3.jpg" alt="Descripción de la imagen" width="300" height="600">
-
-
-# Doctores
-<img src="https://github.com/AlexanderSiguenza/AsiloApp/blob/main/img/tarea4.jpg" alt="Descripción de la imagen" width="300" height="600">
-
-
-# Citas
-<img src="https://github.com/AlexanderSiguenza/AsiloApp/blob/main/img/tarea5.jpg" alt="Descripción de la imagen" width="300" height="600">
