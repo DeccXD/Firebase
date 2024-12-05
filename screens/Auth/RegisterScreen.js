@@ -1,22 +1,20 @@
-import React from 'react';
-import { View, Text, Button } from 'react-native';
-import AuthForm from '../../components/AuthForm';
-import { useNavigation } from '@react-navigation/native';
+import React from "react";
+import { View, Text, StyleSheet } from "react-native";
+import RegisterForm from "../../components/RegisterForm";
 
 const RegisterScreen = () => {
-  const navigation = useNavigation();
-
   return (
-    <View>
-      <Text>Registrarse</Text>
-      <AuthForm isLogin={false} />
-      <Button 
-        title="¿Ya tienes una cuenta? Inicia sesión aquí"
-        onPress={() => navigation.navigate('Login')} 
-      />
+    <View style={styles.container}>
+      <RegisterForm></RegisterForm>
     </View>
   );
 };
 
-export default RegisterScreen;
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: "white",
+  },
+});
 
+export default RegisterScreen;
